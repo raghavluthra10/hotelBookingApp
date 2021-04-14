@@ -43,6 +43,56 @@ const SearchPage = () => {
                 price='$30 / night'
                 total='$112 total'
             />
+
+            <SearchResult
+                img='https://a0.muscache.com/im/pictures/324e2188-c22f-41e6-9691-9b4f84de81a9.jpg?im_w=1200'
+                location='Mumbai'
+                title='Stay here guyss' 
+                description='1 guest . 1 bedroom . Wifi . Kitchen . Free parking . Washing Machine'
+                star='4.73'
+                price='$30 / night'
+                total='$112 total'
+            />
+
+            <SearchResult
+                img='https://a0.muscache.com/im/pictures/324e2188-c22f-41e6-9691-9b4f84de81a9.jpg?im_w=1200'
+                location='Mumbai'
+                title='Stay here guyss' 
+                description='1 guest . 1 bedroom . Wifi . Kitchen . Free parking . Washing Machine'
+                star='4.73'
+                price='$30 / night'
+                total='$112 total'
+            />
+
+            <SearchResult
+                img='https://a0.muscache.com/im/pictures/324e2188-c22f-41e6-9691-9b4f84de81a9.jpg?im_w=1200'
+                location='Mumbai'
+                title='Stay here guyss' 
+                description='1 guest . 1 bedroom . Wifi . Kitchen . Free parking . Washing Machine'
+                star='4.73'
+                price='$30 / night'
+                total='$112 total'
+            />
+
+            <SearchResult
+                img='https://a0.muscache.com/im/pictures/324e2188-c22f-41e6-9691-9b4f84de81a9.jpg?im_w=1200'
+                location='Mumbai'
+                title='Stay here guyss' 
+                description='1 guest . 1 bedroom . Wifi . Kitchen . Free parking . Washing Machine'
+                star='4.73'
+                price='$30 / night'
+                total='$112 total'
+            />
+
+            <SearchResult
+                img='https://a0.muscache.com/im/pictures/324e2188-c22f-41e6-9691-9b4f84de81a9.jpg?im_w=1200'
+                location='Mumbai'
+                title='Stay here guyss' 
+                description='1 guest . 1 bedroom . Wifi . Kitchen . Free parking . Washing Machine'
+                star='4.73'
+                price='$30 / night'
+                total='$112 total'
+            />
         </div>
     )
 }

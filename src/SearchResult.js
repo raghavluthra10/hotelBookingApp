@@ -18,15 +18,16 @@ const SearchResult = ({ img, location, title, description, star, price, total })
                 </div>
 
                 <div className='searchResult__infoBottom'>
-                    <div className='searchResult__star'>
-                        <StarIcon  />
+                    <div className='searchResult__stars'>
+                        <StarIcon className='searchResult__star' />
                         <strong> {star} </strong>
                     </div>
-                </div>
+                    
 
-                <div className='searchResult__price'>
-                    <h2> {price} </h2>
-                    <p> {total} </p>
+                    <div className='searchResult__price'>
+                        <h2> {price} </h2>
+                        <p> {total} </p>
+                    </div>
                 </div>
             </div>
         </div>
