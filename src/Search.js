@@ -26,6 +26,11 @@ const Search = () => {
         setEndDate(ranges.selection.endDate);
     }
 
+    const searchAirbnb = () => {
+        history.push('/searchPage')
+        console.log(startDate, endDate)
+    }
+
     return (
         <div className='search'>
             <DateRangePicker 
@@ -41,7 +46,7 @@ const Search = () => {
             defaultValue={2}
             type='number'
             />
-            <Button onClick={() => history.push('/searchPage')} >
+            <Button onClick={searchAirbnb} >
                 Search Airbnb
             </Button>
         </div>

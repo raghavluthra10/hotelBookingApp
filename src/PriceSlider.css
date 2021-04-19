@@ -1,0 +1,41 @@
+.priceSlider__buttons {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+    
+}
+
+.priceSlider__buttons > button {
+    background-color: black;
+    color: white;
+}
+
+.priceSlider__buttons > button:hover {
+    background-color: white;
+    color: black;
+    border: black 1px solid;
+}
+
+.priceSlider {
+    height: 170px;
+    width: 30vw;
+    position: absolute; 
+    /* border: 1px black solid; */
+    border-radius: 10px;
+    padding: 20px;
+    z-index: 100;
+    background-color: white;
+    box-shadow:0 0px 80px rgba(0, 0, 0, 0.13);
+}
+
+.priceSlider__startEndVal {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+
+.priceSlider__startEndVal > span {
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 5px;
+}

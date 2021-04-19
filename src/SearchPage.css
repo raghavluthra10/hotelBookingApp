@@ -16,3 +16,8 @@
     text-transform: inherit;
     margin: 5px;
 }
+
+.searchPage__priceSelected, .searchPage__cancellationSelected, .searchPage__citySelected, .searchPage__roomsBedsSelected {
+    background-color: rgba(0, 0, 0, 0.288) !important;
+    color: rgb(0, 0, 0) !important;
+}
