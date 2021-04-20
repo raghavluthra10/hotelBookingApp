@@ -7,19 +7,28 @@
     left: 210px;
 }
 
-.citySelected__ul {
-    list-style: none;
+.citySelected__form {
     display: flex;
+    align-content: center;
     flex-direction: column;
     padding: 10px;
-    width: 130px;
+    width: 170px;
     text-align: center;
     
 }
 
-.citySelected__ul > li {
-    margin-top: 5px;
-    margin-bottom: 10px;
-    /* border-bottom: 1px solid lightgray; */
-    cursor: pointer;
+.citySelected__form > div{
+    margin: 8px;
+    display: flex;
+    align-content: flex-start;
+    vertical-align: top;
+
+}
+
+.citySelected__form > div > input {
+    flex: 0.2;
+}
+
+.citySelected__form > div > label {
+    flex: 0.8;
 }

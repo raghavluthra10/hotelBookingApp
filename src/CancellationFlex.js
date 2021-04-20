@@ -2,11 +2,9 @@ import Switch from '@material-ui/core/Switch';
 import React, { useState, useContext } from 'react';
 import { Button } from '@material-ui/core';
 import './CancellationFlex.css';
-import { SearchContext } from './contextSearch/SearchState';
+
 
 const CancellationFlex = (props) => {
-
-    const [ info, setInfo ] = useContext(SearchContext)
 
 
     const clearCancellation = (e) => {
@@ -24,8 +22,8 @@ const CancellationFlex = (props) => {
             </div>
            
             <div className='cancellationFlex__buttons'>
-                <Button onClick={clearCancellation}> Clear </Button>
-                <Button onClick={() => props.filterListFOrCancellation()} > Save </Button>
+                <Button onClick={() => props.clearCancellation()}> Clear </Button>
+                <Button onClick={() => props.filterListFOrCancellation()} > Apply </Button>
             </div>
 
 

@@ -5,7 +5,7 @@ import './SearchResult.css';
 import { useHistory, Link } from 'react-router-dom';
 import { DetailContext } from './contextDetail/DetailState';
 
-const SearchResult = ({ img, location, title, description, star, price, total, guests, cancellation }) => {
+const SearchResult = ({ time, img, location, title, description, star, price, total, guests, cancellation }) => {
 
     const [ singleDetail, setSingleDetail ] = useContext(DetailContext);
 
@@ -55,7 +55,7 @@ const SearchResult = ({ img, location, title, description, star, price, total, g
                             
 
                             <div className='searchResult__price'>
-                                <h2> {price} </h2>
+                                <h2> {price} {time}</h2>
                                 <p> {total} </p>
                             </div>
                         </div>
