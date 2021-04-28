@@ -17,8 +17,8 @@
 }
 
 .priceSlider {
-    height: 170px;
-    width: 30vw;
+    height: 200px;
+    width: 500px;
     position: absolute; 
     /* border: 1px black solid; */
     border-radius: 10px;
@@ -38,4 +38,16 @@
     border: 1px solid black;
     border-radius: 5px;
     padding: 5px;
+}
+
+@media only screen and (max-width: 660px) {
+    .priceSlider {
+        width: 70vw;
+    }
+}
+
+@media only screen and (max-width: 400px){
+    .priceSlider {
+        width: 90vw;
+    }
 }

@@ -1,0 +1,23 @@
+.fullInfo {
+    display: flex;
+    flex-direction: column;
+}
+
+.fullInfo__image {
+    /* padding: 100px; */
+    height: 60vw;
+    min-height: 300px;
+    object-position: center;
+    width: 80vw;
+    align-self: center;
+}
+
+.fullInfo__details {
+    padding: 50px 10vw;
+}
+
+@media only screen and (max-width: 520px) {
+    .fullInfo__image {
+        
+    }
+} 

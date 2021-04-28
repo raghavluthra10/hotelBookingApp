@@ -43,6 +43,7 @@
 .searchResult__info > h3 {
     font-weight: 300;
     margin-top: 10px;
+    width: fit-content;
 }
 
 .searchResult__info > p {
@@ -63,4 +64,46 @@
     position: absolute;
     bottom: 20px;
     right: 30px;
+}
+
+@media only screen and (max-width: 1150px) {
+    .searchResult {
+        flex-direction: column;
+    }
+
+    .searchResult__info {
+        margin-top: 50px;
+    }
+
+    .searchResult__stars {
+        width: fit-content;
+    }
+}
+
+@media only screen and (max-width: 550px){
+    .searchResult__heart {
+        top: 270px;
+        right: 40px;
+    }
+
+    .searchResult__price {
+        font-size: 12px !important;
+        position: relative;
+        margin-left: 30px;
+    }
+
+    .searchResult__price > p  {
+        text-align: justify;
+    }
+
+    .searchResult > img {
+        width: 80vw;
+        align-self: center;
+    }
+
+    .searchResult__infoBottom {
+        flex-direction: column;        
+        height: 150px;
+        
+    }
 }

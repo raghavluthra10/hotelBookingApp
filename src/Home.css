@@ -4,3 +4,9 @@
     justify-content: space-between;
 
 }
+
+@media only screen and (max-width: 770px) {
+    .home__section {
+        flex-direction: column;
+    }
+} 

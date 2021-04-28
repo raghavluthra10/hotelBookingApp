@@ -17,7 +17,7 @@ const SearchState = ({ children, img, location, title, description, star, price,
             description:'1 guest . 1 bedroom . Wifi . Kitchen . Free parking . Washing Machine',
             star:'4.73',
             price:  {
-                rate: '2000',
+                rate: '1999',
                 time: 'per night'
             },
             total:'10k total',
@@ -32,7 +32,7 @@ const SearchState = ({ children, img, location, title, description, star, price,
             description:'1 guest . 1 bedroom . Wifi . Kitchen . Free parking . Washing Machine',
             star:'4.55',
             price: {
-                rate: '3000',
+                rate: '2999',
                 time: 'per night'
             },
             total:'10k total',
@@ -47,7 +47,7 @@ const SearchState = ({ children, img, location, title, description, star, price,
             description: '1 guest . 1 bedroom . Wifi . Kitchen . Free parking . Washing Machine',
             star: '4.88',
             price:  {
-                rate: '2000',
+                rate: '1999',
                 time: 'per night'
             },
             total: '10k total',
@@ -62,7 +62,7 @@ const SearchState = ({ children, img, location, title, description, star, price,
             description: '1 guest . 1 bedroom . Wifi . Kitchen . Free parking . Washing Machine',
             star: '4.2',
             price:  {
-                rate: '4000',
+                rate: '3999',
                 time: 'per night'
             },
             total: '10k total',
@@ -77,7 +77,7 @@ const SearchState = ({ children, img, location, title, description, star, price,
             description: '1 guest . 1 bedroom . Wifi . Kitchen . Free parking . Washing Machine',
             star: '4.2',
             price:  {
-                rate: '2000',
+                rate: '1999',
                 time: 'per night'
             },
             total: '10k total',
@@ -92,7 +92,7 @@ const SearchState = ({ children, img, location, title, description, star, price,
             description: '1 guest . 1 bedroom . Wifi . Kitchen . Free parking . Washing Machine',
             star: '4.78',
             price:  {
-                rate: '3000',
+                rate: '2999',
                 time: 'per night'
             },
             total: '10k total',
@@ -107,7 +107,7 @@ const SearchState = ({ children, img, location, title, description, star, price,
             description: '1 guest . 1 bedroom . Wifi . Kitchen . Free parking . Washing Machine',
             star: '4.5',
             price: {
-                rate: '5000',
+                rate: '4999',
                 time: 'per night'
             },
             total:'10k total',
@@ -122,7 +122,7 @@ const SearchState = ({ children, img, location, title, description, star, price,
             description:'1 guest . 1 bedroom . Wifi . Kitchen . Free parking . Washing Machine',
             star: '4.9',
             price:  {
-                rate: '2000',
+                rate: '1999',
                 time: 'per night'
             },
             total: '10k total',
@@ -137,7 +137,7 @@ const SearchState = ({ children, img, location, title, description, star, price,
             description: '1 guest . 1 bedroom . Wifi . Kitchen . Free parking . Washing Machine',
             star: '4.4',
             price: {
-                rate: '3000',
+                rate: '2999',
                 time: 'per night'
             },
             total: '10k total',
@@ -152,7 +152,7 @@ const SearchState = ({ children, img, location, title, description, star, price,
             description: '1 guest . 1 bedroom . Wifi . Kitchen . Free parking . Washing Machine',
             star: '4.9',
             price:  {
-                rate: '5000',
+                rate: '4999',
                 time: 'per night'
             },
             total: '10k total',

@@ -42,3 +42,23 @@
     margin-right: 80px;
 
 }
+
+@media only screen and (max-width: 690px) {
+    .header__right {
+        display: none;
+    }
+
+    .header__center {
+        width: 100%;
+        min-width: 100px;
+        margin-right: 20px;
+    }
+
+    .header__center > input {
+        min-width: 100px;
+    }
+
+    .header > Link {
+        margin-right: 10px;
+    }
+}

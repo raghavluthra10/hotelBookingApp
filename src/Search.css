@@ -1,8 +1,11 @@
 .search {
-    position: absolute;
+    position: absolute !important;
     top: 35px;
-    left: 25%;
-    width: 100vw;
+    left: 100px;
+    /* transform: translate(550px, 35px); */
+    width: 1vw;
+    z-index: 99;
+    background-color: blue;
 }
 
 .search > h2 {
@@ -23,7 +26,7 @@
     position: absolute;
     left: 0;
     height: 30px;
-    top: 395px;
+    top: 388px;
     border: none;
     /* background-color: violet; */
 }
@@ -35,7 +38,7 @@
 .search > button {
     position: absolute;
     left: 0;
-    top: 433px;
+    top: 427px;
     text-transform: inherit !important;
     background-color: #ff7779;
     color: white;
@@ -45,4 +48,16 @@
 .search > button:hover {
     background-color: white;
     color: #ff7779;
+}
+
+@media only screen and (max-width: 680px) {
+    .search {
+        left: 0px;
+    }
+}
+
+@media only screen and (max-width: 570px) {
+    /* .search  {
+        overflow-y: scroll;
+    } */
 }

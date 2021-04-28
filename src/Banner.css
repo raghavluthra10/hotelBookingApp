@@ -2,8 +2,8 @@
     height: 100%;
     position: relative;
     background: url('https://a0.muscache.com/im/pictures/166791ff-bc82-4b88-ba3d-49be1d462dce.jpg?im_w=2560');
-    /* align-items: center; */
     background-size: cover;
+    background-position: center;
 }
 
 .banner__info {
@@ -41,4 +41,25 @@
 .banner__search {
     display: flex;
     flex-direction: column;
+}
+
+
+@media only screen and (max-width: 930px) {
+    .banner__info {
+        width: 50vw;
+        padding: 40px;
+        /* height: 100px; */
+    }
+
+    .banner__info > h5{
+        font-size: 14px;
+    }
+
+    .banner__info > h1 {
+        font-size: 18px !important;
+    }
+
+    .banner__info > button {
+        font-size: 14px !important;
+    }
 }
