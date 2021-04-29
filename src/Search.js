@@ -28,7 +28,6 @@ const Search = () => {
 
     const searchAirbnb = () => {
         history.push('/searchPage')
-        console.log(startDate, endDate)
     }
 
     return (
